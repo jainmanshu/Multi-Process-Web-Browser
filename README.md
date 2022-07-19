@@ -1,7 +1,7 @@
 # Multi-Process-Web-browser
 
 ## Purpose
-The purpose of this Project is to correctly implement/debug/execute a multi-process, event driven web browser.  To this end the program utilizes pipes, fork(), wait(), IPC … specifically pipes and the open source GTK library. The main code lies in [browser.c](browser.c) that utilizes GTK library and grapics provided in wrapper.c and wrapper.h file. This multi process browser allow you to open webpages using multiple windows/tabs, which can be controlled from a controller window/tab. This web browser uses an isolated process for each tab so that browsing on a given tab is not interrupted in the event that another tab crashes.   
+The purpose of this Project is to correctly implement/debug/execute a multi-process, event driven web browser.  To this end the program utilizes pipes, fork(), wait(), IPC … specifically pipes and the open source GTK library. The main code lies in [browser.c](browser.c) that utilizes GTK library and graphics provided in wrapper.c and wrapper.h file. This multi process browser allow you to open webpages using multiple windows/tabs, which can be controlled from a controller window/tab. This web browser uses an isolated process for each tab so that browsing on a given tab is not interrupted in the event that another tab crashes.   
 
 ### How to compile this Project
 This project comes with a make file
